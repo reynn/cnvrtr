@@ -1,0 +1,18 @@
+[package]
+authors = ["Nic Patterson <nic@reynn.dev>"]
+edition = "2018"
+name    = "cnvrtr"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dev-dependencies]
+cargo-make = "0.32"
+
+[profile.release]
+debug     = false
+lto       = true
+opt-level = 3
+panic     = "abort"
