@@ -15,4 +15,6 @@ assert_eq(in.value(), 6.692913);
 ## Supported Measurements
 
 Length (Meters/Feet)
-Mass (lbs/grams)
+Mass (LBs/Grams)
+Electric Current (Amps)
+Temperature (Farenheit/Celcius/Kelvin)
